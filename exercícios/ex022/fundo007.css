@@ -1,0 +1,53 @@
+body{
+    background-image: linear-gradient(to bottom,#cccccc, #444444, #000000);
+}
+h1{
+    text-align: left;
+    padding-left: 15%;
+    font-size: 2.5em;
+}
+div{
+    background-color: #ffffff;
+    border: 1px solid #000;
+    width: 35%;
+    height: 300px;
+    display: inline-block;
+    margin: 2% 5%;            
+}
+div p{
+    text-align: center;
+    padding-top: 10%;
+    font-size: 2em;
+}
+div{
+    background-image: url("fundo\ com\ transparencia.png");
+    background-size: 120px 120px;
+    background-repeat: no-repeat;
+}
+#divUm{
+    background-position: left top;
+}
+#divDois{
+    background-position: right top;
+}
+#divTres{
+    background-position: center top;
+}
+#divQuatro{
+    background-position: center center;
+}
+#divCinco{
+    background-position: left center;
+}
+#divSeis{
+    background-position: right center;
+}
+#divSete{
+    background-position: left bottom;
+}
+#divOito{
+    background-position: right bottom;
+}
+#divNove{
+    background-position: center bottom;
+}
